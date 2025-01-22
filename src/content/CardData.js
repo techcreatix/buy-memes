@@ -18,7 +18,7 @@ export const CardData =
     },
     {
         "Image": Card2,
-      "Ticker": "AI6Z",
+      "Ticker": "AI16Z",
       "Price": "$0.0873",
       "Market Cap": "$962K",
       "rotate": "rotate-180",

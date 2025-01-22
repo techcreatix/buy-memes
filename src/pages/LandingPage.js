@@ -15,7 +15,7 @@ export default function LandingPage() {
         <HottestCards />
       </div>
       <div className="flex flex-col gap-5 mt-3 lg:w-[992px] w-full mx-auto">
-        <h2 className="font-bold text-[32px]">Learn More</h2>
+        <h2 className="font-bold text-[32px]">Learn more</h2>
         <LearnMore />
       </div>
     </Layout>

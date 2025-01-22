@@ -137,9 +137,9 @@ export default function Banner() {
               </div>
             </div>
             <div className="p-4 w-[268px]">
-              <div className="mt-2  grid grid-cols-12 items-center">
-                <h2 className="text-lg col-span-8  font-bold">VIRTUAL</h2>
-                <span className="text-green-500 col-span-4 text-sm font-bold">
+              <div className="mt-2  grid grid-cols-2 items-center">
+                <h2 className="text-lg   font-bold">VIRTUAL</h2>
+                <span className="text-green-500 ml-12  text-sm font-bold">
                   ▲ 0.59%
                 </span>
               </div>
