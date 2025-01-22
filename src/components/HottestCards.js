@@ -48,13 +48,13 @@ export default function HottestCards() {
                     <img src={card.Image} alt="Hottest Card" />
                   </div>
                   <div className="p-4 md:w-[210px]">
-                    <div className="mt-2 flex justify-between items-center">
+                    <div className="mt-2 grid grid-cols-2 items-center">
                       <div className="flex">
                         <h2 className="text-lg font-bold">{card.Ticker}</h2>
                         {card.cardCheck && <img src={card.cardCheck} alt="" />}
                       </div>
                       {card.Change && (
-                     <div class="flex items-center gap-1">
+                     <div class="flex items-center gap-1 ml-4">
                          <span class={`${card.rotate ? 'text-red-500 rotate-180 text-sm font-bold' : 'text-green-500 text-sm font-bold'}`}> ▲ </span>
                         <span className={`${card.rotate ? 'text-red-500 text-sm font-bold' : 'text-green-500 text-sm font-bold'}`}>
                          {card.Change}
