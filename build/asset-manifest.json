@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/buy-memes/static/css/main.b94e5177.css",
+    "main.js": "/buy-memes/static/js/main.bbba910c.js",
+    "static/js/488.7d4c48b3.chunk.js": "/buy-memes/static/js/488.7d4c48b3.chunk.js",
+    "static/media/logo.svg": "/buy-memes/static/media/logo.44a160566f0095e1b6955abe20947769.svg",
+    "static/media/dollar.svg": "/buy-memes/static/media/dollar.cf83edd5760582cb247930e8be271e07.svg",
+    "static/media/computer.svg": "/buy-memes/static/media/computer.29e11db71da1503b5c6c218fe3c4d8bb.svg",
+    "static/media/twitter.svg": "/buy-memes/static/media/twitter.ead85abaecd2aabc0ad72d40381f0a3d.svg",
+    "static/media/linkedin.svg": "/buy-memes/static/media/linkedin.bc6bd52569d21a8a17a4dc7cdd540dfd.svg",
+    "index.html": "/buy-memes/index.html",
+    "static/media/hamburger.svg": "/buy-memes/static/media/hamburger.4686a58b33435699073093b7c05303d7.svg",
+    "main.b94e5177.css.map": "/buy-memes/static/css/main.b94e5177.css.map",
+    "main.bbba910c.js.map": "/buy-memes/static/js/main.bbba910c.js.map",
+    "488.7d4c48b3.chunk.js.map": "/buy-memes/static/js/488.7d4c48b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b94e5177.css",
+    "static/js/main.bbba910c.js"
+  ]
+}
