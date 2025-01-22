@@ -10,7 +10,7 @@ body{
   height: 380px;
 }
 .mySwiper2 {
-  height: 100px !important;
+  height: 150px !important;
 }
 .mySwiper::-webkit-scrollbar {
   display: none;
