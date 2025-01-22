@@ -41,7 +41,7 @@ export default function LearnMore() {
           clickable: true, 
           dynamicBullets: true, 
           renderBullet: (index, className) => {
-            return `<span className="${className} custom-bullet">${
+            return `<span class="${className} custom-bullet">${
               index + 1
             }</span>`; 
           },
@@ -51,10 +51,10 @@ export default function LearnMore() {
             slidesPerView: 1.5,
           },
           640: {
-            slidesPerView: 2, 
+            slidesPerView: 2,
           },
           768: {
-            slidesPerView: 3,
+            slidesPerView: 3, 
           },
           1024: {
             slidesPerView: 4,
