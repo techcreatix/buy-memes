@@ -12,21 +12,18 @@ export default function Navbar() {
 
   // Toggle function for mobile menu
   const handleMenuToggle = () => {
-    setIsMenuOpen(prevState => !prevState);
+    setIsMenuOpen((prevState) => !prevState);
   };
 
   return (
     <div className="flex py-3 sm:px-6 px-4 w-full min-h-[84px] tracking-wide relative z-50">
       <div className="flex items-center max-w-screen-xl mx-auto w-full">
         {/* Hamburger Button for Mobile */}
-        <button
-          onClick={handleMenuToggle}
-          className="lg:hidden block"
-        >
+        <button onClick={handleMenuToggle} className="lg:hidden block">
           <img src={Hamburger} alt="hamburger menu" />
         </button>
 
-        <div className="flex flex-wrap items-center justify-center lg:justify-between lg:gap-y-2 gap-4 w-full">
+        <div className="flex flex-wrap items-center justify-center mr-5 lg:justify-between lg:gap-y-2 gap-4 w-full">
           {/* Logo */}
           <Link to="/" className="max-sm:hidden">
             <img src={Logo} alt="logo" className="w-36" />
@@ -35,28 +32,50 @@ export default function Navbar() {
             <img src={Logo} alt="logo" className="w-full" />
           </Link>
 
-          {/* Collapse Menu for mobile (toggle visibility based on isMenuOpen state) */}
+          {/* Desktop and above navigation links (they are always visible) */}
+
+          {/* Mobile Menu (only shows when `isMenuOpen` is true) */}
           <div
-            className={`lg:ml-6 max-lg:hidden lg:!block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50 ${isMenuOpen ? 'block' : 'hidden'}`}
+            className={`lg:hidden flex flex-col items-center absolute left-0 top-[84px] w-full bg-white shadow-lg z-50 p-6 sm:p-8 transition-all ${
+              isMenuOpen ? "block" : "hidden"
+            }`}
           >
-            {/* Close Button for Mobile Menu (only visible when menu is open) */}
+            {/* Close Button for Mobile Menu */}
             <button
               onClick={handleMenuToggle}
-              className="lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white w-9 h-9 flex items-center justify-center border"
+              className="absolute top-4 right-4 z-[100] rounded-full bg-white w-9 h-9 flex items-center justify-center border"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-3.5 h-3.5 fill-black"
                 viewBox="0 0 320.591 320.591"
               >
-                <path
-                  d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
-                />
-                <path
-                  d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
-                />
+                <path d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z" />
+                <path d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z" />
               </svg>
             </button>
+
+            {/* Mobile Navigation Links */}
+            <div className="flex flex-col items-center gap-6">
+              <Link to="/" className="text-lg font-medium text-gray-800">
+                Home
+              </Link>
+              <Link to="/about" className="text-lg font-medium text-gray-800">
+                About
+              </Link>
+              <Link
+                to="/services"
+                className="text-lg font-medium text-gray-800"
+              >
+                Services
+              </Link>
+              <Link to="/contact" className="text-lg font-medium text-gray-800">
+                Contact
+              </Link>
+              <button className="font-semibold px-6 py-2 w-full text-sm rounded-[4px] text-white bg-[#000] mt-4">
+                Start Buying
+              </button>
+            </div>
           </div>
 
           {/* Desktop Search */}
@@ -91,12 +110,20 @@ export default function Navbar() {
               </div>
               <div className="flex flex-col items-center justify-center gap-0.5 cursor-pointer">
                 <Link to="/" className="max-sm:hidden">
-                  <img src={LinkedIn} alt="LinkedIn" className="w-full h-full" />
+                  <img
+                    src={LinkedIn}
+                    alt="LinkedIn"
+                    className="w-full h-full"
+                  />
                 </Link>
               </div>
               <div className="flex flex-col items-center justify-center gap-0.5 cursor-pointer">
                 <Link to="/" className="max-sm:hidden">
-                  <img src={Computer} alt="Computer" className="w-full h-full" />
+                  <img
+                    src={Computer}
+                    alt="Computer"
+                    className="w-full h-full"
+                  />
                 </Link>
               </div>
               <button className="max-lg:hidden font-semibold px-6 py-2 w-[143px] h-[48px] text-sm rounded-[4px] text-white bg-[#000]">
