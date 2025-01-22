@@ -31,17 +31,17 @@ export default function Banner() {
                   {/* User Avatars */}
                   <div className="flex -space-x-2">
                     <img
-                      className="w-8 h-8 rounded-full border-[2.8px] border-black"
+                      className="w-8 h-8 object-cover rounded-full border-[2.8px] border-black"
                       src={User1}
                       alt="User 1"
                     />
                     <img
-                      className="w-8 h-8 rounded-full border-[2.8px] border-black"
+                      className="w-8 h-8 object-cover rounded-full border-[2.8px] border-black"
                       src={User2}
                       alt="User 2"
                     />
                     <img
-                      className="w-8 h-8 rounded-full border-[2.8px] border-black"
+                      className="w-8 h-8 object-cover rounded-full border-[2.8px] border-black"
                       src={User3}
                       alt="User 3"
                     />

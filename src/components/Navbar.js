@@ -79,7 +79,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Search */}
-          <div className="lg:flex hidden items-center border-2 bg-gray-100 rounded-full px-4 py-1.5 shadow">
+          <div className="lg:flex hidden items-center border bg-[#f5f5f5] rounded-full px-4 py-1.5 shadow">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 192.904 192.904"
@@ -92,10 +92,10 @@ export default function Navbar() {
             <input
               type="text"
               placeholder="Search ai agents..."
-              className="flex-grow bg-gray-100 w-[350px] placeholder:mb-5 h-[40px] border-none outline-none px-2 text-sm"
+              className="flex-grow bg-[#f5f5f5] w-[350px] placeholder:mb-5 h-[40px] border-none outline-none px-2 text-sm"
             />
 
-            <div className="flex items-center bg-[#e5e5e5] border rounded px-2 py-1 text-xs text-gray-500">
+            <div className="flex items-center bg-[#f5f5f5] border  rounded px-2 py-1 text-xs text-gray-500">
               ⌘ K
             </div>
           </div>
