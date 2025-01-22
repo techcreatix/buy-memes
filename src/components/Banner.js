@@ -31,17 +31,17 @@ export default function Banner() {
                   {/* User Avatars */}
                   <div className="flex -space-x-2">
                     <img
-                      className="w-8 h-8 rounded-full border-4 border-black"
+                      className="w-8 h-8 rounded-full border-2 border-black"
                       src={User1}
                       alt="User 1"
                     />
                     <img
-                      className="w-8 h-8 rounded-full border-4 border-black"
+                      className="w-8 h-8 rounded-full border-2 border-black"
                       src={User2}
                       alt="User 2"
                     />
                     <img
-                      className="w-8 h-8 rounded-full border-4 border-black"
+                      className="w-8 h-8 rounded-full border-2 border-black"
                       src={User3}
                       alt="User 3"
                     />
@@ -75,7 +75,7 @@ export default function Banner() {
         </div>
         <div className="items-center justify-center lg:justify-end  col-span-12 lg:col-span-4 flex">
           <div className="max-w-xs  bg-white rounded-lg  w-[300px] shadow-lg overflow-hidden">
-            <div className="relative bg-red-500 h-[195px]">
+            <div className="relative bg-[#C25353] h-[195px]">
               <div className="absolute top-2 right-2 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -136,21 +136,21 @@ export default function Banner() {
                 </svg>
               </div>
             </div>
-            <div className="p-4">
-              <div className="mt-2 flex justify-between items-center">
-                <h2 className="text-lg font-bold">VIRTUAL</h2>
-                <span className="text-green-500 text-sm font-bold">
+            <div className="p-4 w-[268px]">
+              <div className="mt-2  grid grid-cols-12 items-center">
+                <h2 className="text-lg col-span-8  font-bold">VIRTUAL</h2>
+                <span className="text-green-500 col-span-4 text-sm font-bold">
                   ▲ 0.59%
                 </span>
               </div>
               <div className="flex justify-between items-center mt-2">
                 <div>
-                  <p className="text-sm text-gray-600">Price</p>
-                  <p className="text-lg font-semibold">$2.74</p>
+                  <p className="text-[13px] text-gray-600">Price</p>
+                  <p className="text-sm font-semibold">$2.74</p>
                 </div>
                 <div className="text-right">
-                  <p className="text-sm text-gray-600">Market Cap</p>
-                  <p className="text-lg text-start font-semibold">$1.7B</p>
+                  <p className="text-[13px] text-gray-600">Market Cap</p>
+                  <p className="text-sm text-start font-semibold">$1.7B</p>
                 </div>
               </div>
             </div>

@@ -42,7 +42,7 @@ export default function Footer() {
             to="/"
             className="text-base leading-6 text-gray-500 hover:text-gray-900"
           >
-            Accessbility
+            Accessibility
           </Link>
         </div>
         <div className="px-5 py-2">
