@@ -79,7 +79,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Search */}
-          <div className="lg:flex hidden items-center bg-gray-100 rounded-full px-4 py-1.5 shadow">
+          <div className="lg:flex hidden items-center border-2 bg-gray-100 rounded-full px-4 py-1.5 shadow">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 192.904 192.904"
