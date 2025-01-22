@@ -21,7 +21,8 @@ export const CardData =
       "Ticker": "AI6Z",
       "Price": "$0.0873",
       "Market Cap": "$962K",
-      "Change": "-11.55%",
+      "rotate": "rotate-180",
+      "Change": "11.55%",
       "cardCheck" : Check,
 
     },

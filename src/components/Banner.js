@@ -8,14 +8,14 @@ import User3 from "../assets/images/user3.svg"
 
 export default function Banner() {
   return (
-    <div class=" flex flex-col mx-auto bg-white lg:w-[992px]">
-      <div class="grid w-full lg:grid-cols-12 gap-5 lg:gap-10 my-auto mt-12 mb-8 ">
-        <div class="flex flex-col justify-center lg:w-[652px] col-span-12 lg:col-span-8 gap-4 text-center lg:text-start">
-          <h1 class=" text-4xl font-bold leading-tight lg:text-6xl text-dark-grey-900">
+    <div className=" flex flex-col mx-auto bg-white lg:w-[992px]">
+      <div className="grid w-full lg:grid-cols-12 gap-5 lg:gap-10 my-auto mt-12 mb-8 ">
+        <div className="flex flex-col justify-center lg:w-[652px] col-span-12 lg:col-span-8 gap-4 text-center lg:text-start">
+          <h1 className=" text-4xl font-bold leading-tight lg:text-6xl text-dark-grey-900">
             Buy Memes.<br/>
             In Two Clicks.
           </h1>
-          <p class="  font-normal text-[13px] md:text-[23.06px] font-sans lg:w-3/4 text-grey-900">
+          <p className="  font-normal text-[13px] md:text-[23.06px]  lg:w-3/4 text-grey-900">
             The fastest way to buy memes in just two clicks. <br/> Under 1 minute to
             sign up and no wallet needed.
           </p>
@@ -31,17 +31,17 @@ export default function Banner() {
                   {/* User Avatars */}
                   <div className="flex -space-x-2">
                     <img
-                      className="w-8 h-8 rounded-full border-2 border-white"
+                      className="w-8 h-8 rounded-full border-4 border-black"
                       src={User1}
                       alt="User 1"
                     />
                     <img
-                      className="w-8 h-8 rounded-full border-2 border-white"
+                      className="w-8 h-8 rounded-full border-4 border-black"
                       src={User2}
                       alt="User 2"
                     />
                     <img
-                      className="w-8 h-8 rounded-full border-2 border-white"
+                      className="w-8 h-8 rounded-full border-4 border-black"
                       src={User3}
                       alt="User 3"
                     />
@@ -62,7 +62,7 @@ export default function Banner() {
                 </div>
                 <div className="flex items-center mt-3">
                 
-                 <div class="flex items-center">
+                 <div className="flex items-center">
                   <img className="mt-3" src={Dollar} alt=""/>
                  <p className="text-[22.31px] font-medium text-gray-800 ">
                     1,288,314,266
@@ -73,7 +73,7 @@ export default function Banner() {
             </div>
           
         </div>
-        <div class="items-center justify-center lg:justify-end  col-span-12 lg:col-span-4 flex">
+        <div className="items-center justify-center lg:justify-end  col-span-12 lg:col-span-4 flex">
           <div className="max-w-xs  bg-white rounded-lg  w-[300px] shadow-lg overflow-hidden">
             <div className="relative bg-red-500 h-[195px]">
               <div className="absolute top-2 right-2 ">
