@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
       </nav>
       <div className="flex justify-center mt-8 space-x-6">
-        <Link to="/" className="text-gray-500">
+        <Link to="https://www.facebook.com/" className="text-gray-500">
           <span className="sr-only">Facebook</span>
           <svg
             className="w-6 h-6"
@@ -73,7 +73,7 @@ export default function Footer() {
             />
           </svg>
         </Link>
-        <Link to="/" className="text-gray-500">
+        <Link to="https://www.instagram.com/" className="text-gray-500">
           <span className="sr-only">Instagram</span>
           <svg
             className="w-6 h-6"
@@ -88,11 +88,11 @@ export default function Footer() {
             />
           </svg>
         </Link>
-        <Link to="/" className="text-gray-500">
+        <Link to="https://x.com/?lang=en" className="text-gray-500">
           <span className="sr-only">Twitter</span>
           <img src={Twitter}  className="w-6 h-6" alt="twitter"/>
         </Link>
-        <Link to="/" className="text-gray-500">
+        <Link to="https://github.com/" className="text-gray-500">
           <span className="sr-only">GitHub</span>
           <svg
             className="w-6 h-6"
@@ -107,7 +107,7 @@ export default function Footer() {
             />
           </svg>
         </Link>
-        <Link to="/" className="text-gray-500">
+        <Link to="https://www.youtube.com/" className="text-gray-500">
           <span className="sr-only">Youtube</span>
           <img src={Youtube}  className="w-6 h-6" alt="twitter"/>
         </Link>

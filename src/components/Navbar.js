@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../assets/images/logo.svg";
 import Twitter from "../assets/images/twitter.svg";
-import LinkedIn from "../assets/images/linkedin.svg";
+import Telegram from "../assets/images/Telegram.svg";
 import Computer from "../assets/images/computer.svg";
 import Hamburger from "../assets/images/hamburger.svg";
 import { Link } from "react-router-dom";
@@ -60,16 +60,16 @@ export default function Navbar() {
               <Link to="/" className="text-lg font-medium text-gray-800">
                 Home
               </Link>
-              <Link to="/about" className="text-lg font-medium text-gray-800">
+              <Link to="/" className="text-lg font-medium text-gray-800">
                 About
               </Link>
               <Link
-                to="/services"
+                to="/"
                 className="text-lg font-medium text-gray-800"
               >
                 Services
               </Link>
-              <Link to="/contact" className="text-lg font-medium text-gray-800">
+              <Link to="/" className="text-lg font-medium text-gray-800">
                 Contact
               </Link>
               <button className="font-semibold px-6 py-2 w-full text-sm rounded-[4px] text-white bg-[#000] mt-4">
@@ -104,15 +104,15 @@ export default function Navbar() {
           <div className="lg:flex hidden items-center gap-x-6 gap-y-4">
             <div className="flex items-center gap-5">
               <div className="flex flex-col items-center justify-center gap-0.5 cursor-pointer">
-                <Link to="/" className="max-sm:hidden">
+                <Link to="https://x.com/?lang=en" className="max-sm:hidden">
                   <img src={Twitter} alt="Twitter" className="w-full h-full" />
                 </Link>
               </div>
               <div className="flex flex-col items-center justify-center gap-0.5 cursor-pointer">
-                <Link to="/" className="max-sm:hidden">
+                <Link to="https://telegram.org/" className="max-sm:hidden">
                   <img
-                    src={LinkedIn}
-                    alt="LinkedIn"
+                    src={Telegram}
+                    alt="Telegram"
                     className="w-full h-full"
                   />
                 </Link>
