@@ -14,11 +14,11 @@ export const CardData =
       "Ticker": "VIRTUAL",
       "Price": "$2.74",
       "Market Cap": "$1.7B",
-      "Change": "0.55%"
+      "Change": "0.59%"
     },
     {
         "Image": Card2,
-      "Ticker": "AI62",
+      "Ticker": "AI6Z",
       "Price": "$0.0873",
       "Market Cap": "$962K",
       "Change": "-11.55%",

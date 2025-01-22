@@ -150,7 +150,7 @@ export default function Banner() {
                 </div>
                 <div className="text-right">
                   <p className="text-sm text-gray-600">Market Cap</p>
-                  <p className="text-lg font-semibold">$1.7B</p>
+                  <p className="text-lg text-start font-semibold">$1.7B</p>
                 </div>
               </div>
             </div>

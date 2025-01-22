@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mySwiper {
+  height: 500px;
+ 
+  
+}
+.mySwiper::-webkit-scrollbar {
+  display: none;
+}
+.carousel-item {
+  padding-top: 40px !important;
+}
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+.swiper-container {
+  transform: none !important;
+}
+
+
+
+
+
+
+
+/* Style for the default Swiper pagination bullets */
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Customize the bullets */
+  .custom-bullet {
+    display: inline-block;
+    width: 26px !important;
+    height: 3px !important;
+    margin: 0 4px;
+    background-color: #888; /* Default color */
+    border-radius: 0 !important;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+  }
+  
+  /* Style for active bullet */
+  .custom-bullet.swiper-pagination-bullet-active {
+    background-color: #343434; /* Active bullet color */
+    opacity: 1;
+  }
+  
+  /* Customize the dynamic bullets */
+  .swiper-pagination-bullets .swiper-pagination-bullet {
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+  }
+  
+  /* Optional: Add hover effect for bullets */
+  .custom-bullet:hover {
+    background-color: #ff4500; /* Hover color */
+    transform: scale(1.4);
+  }
+  
