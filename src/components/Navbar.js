@@ -4,6 +4,7 @@ import Twitter from "../assets/images/twitter.svg";
 import LinkedIn from "../assets/images/linkedin.svg";
 import Computer from "../assets/images/computer.svg";
 import Hamburger from "../assets/images/hamburger.svg";
+import { Link } from "react-router-dom";
 
 
 
@@ -15,12 +16,12 @@ export default function Navbar() {
                <img src={Hamburger} alt=""/>
               </button>
         <div className="flex flex-wrap items-center justify-center lg:justify-between lg:gap-y-2 gap-4 w-full">
-          <a href="javascript:void(0)" className="max-sm:hidden">
+          <Link to="#" className="max-sm:hidden">
             <img src={Logo} alt="logo" className="w-36" />
-          </a>
-          <a href="javascript:void(0)" className="hidden max-sm:block">
+          </Link>
+          <Link to="#" className="hidden max-sm:block">
             <img src={Logo} alt="logo" className="w-full" />
-          </a>
+          </Link>
           <div
             id="collapseMenu"
             className="lg:ml-6 max-lg:hidden lg:!block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50"
@@ -96,9 +97,9 @@ export default function Navbar() {
           <div className="lg:flex hidden items-center gap-x-6 gap-y-4 ">
             <div className="flex items-center gap-5">
               <div className="flex flex-col items-center justify-center gap-0.5 cursor-pointer">
-                <a href="javascript:void(0)" className="max-sm:hidden">
+                <Link to="#" className="max-sm:hidden">
                   <img src={Twitter} alt="logo" className="w-full h-full" />
-                </a>
+                </Link>
                 {/* <div className="relative">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -119,14 +120,14 @@ export default function Navbar() {
                 </span> */}
               </div>
               <div className="flex flex-col items-center justify-center gap-0.5 cursor-pointer">
-                <a href="javascript:void(0)" className="max-sm:hidden">
+                <Link to="#" className="max-sm:hidden">
                   <img src={LinkedIn} alt="logo" className="w-full h-full" />
-                </a>
+                </Link>
               </div>
               <div className="flex flex-col items-center justify-center gap-0.5 cursor-pointer">
-                <a href="javascript:void(0)" className="max-sm:hidden">
+                <Link to="#" className="max-sm:hidden">
                   <img src={Computer} alt="logo" className="w-full h-full" />
-                </a>
+                </Link>
               </div>
               <button className="max-lg:hidden font-semibold px-6 py-2 w-[143px] h-[48px] text-sm rounded-[4px] text-white bg-[#000]">
                 Start Buying

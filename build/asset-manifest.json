@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/buy-memes/static/css/main.b94e5177.css",
-    "main.js": "/buy-memes/static/js/main.bbba910c.js",
+    "main.js": "/buy-memes/static/js/main.046bb2f4.js",
     "static/js/488.7d4c48b3.chunk.js": "/buy-memes/static/js/488.7d4c48b3.chunk.js",
     "static/media/logo.svg": "/buy-memes/static/media/logo.44a160566f0095e1b6955abe20947769.svg",
     "static/media/dollar.svg": "/buy-memes/static/media/dollar.cf83edd5760582cb247930e8be271e07.svg",
@@ -11,11 +11,11 @@
     "index.html": "/buy-memes/index.html",
     "static/media/hamburger.svg": "/buy-memes/static/media/hamburger.4686a58b33435699073093b7c05303d7.svg",
     "main.b94e5177.css.map": "/buy-memes/static/css/main.b94e5177.css.map",
-    "main.bbba910c.js.map": "/buy-memes/static/js/main.bbba910c.js.map",
+    "main.046bb2f4.js.map": "/buy-memes/static/js/main.046bb2f4.js.map",
     "488.7d4c48b3.chunk.js.map": "/buy-memes/static/js/488.7d4c48b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b94e5177.css",
-    "static/js/main.bbba910c.js"
+    "static/js/main.046bb2f4.js"
   ]
 }
