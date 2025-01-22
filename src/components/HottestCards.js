@@ -54,7 +54,7 @@ export default function HottestCards() {
                         {card.cardCheck && <img src={card.cardCheck} alt="" />}
                       </div>
                       {card.Change && (
-                     <div class="flex items-center gap-1 ml-[19px]">
+                     <div class="flex items-center gap-1 ml-[32px] md:ml-[19px]">
                          <span class={`${card.rotate ? 'text-red-500 rotate-180 text-sm font-bold' : 'text-green-500 text-sm font-bold'}`}> ▲ </span>
                         <span className={`${card.rotate ? 'text-red-500 text-sm font-bold' : 'text-green-500 text-sm font-bold'}`}>
                          {card.Change}

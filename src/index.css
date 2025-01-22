@@ -64,6 +64,6 @@ body{
 
 /* Optional: Add hover effect for bullets */
 .custom-bullet:hover {
-  background-color: #ff4500; /* Hover color */
+  background-color: #343434; /* Hover color */
   transform: scale(1.4);
 }
